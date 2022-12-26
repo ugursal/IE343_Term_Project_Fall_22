@@ -9,10 +9,11 @@ public class Track{
                 this.track_individual_value = track_individual_value;
                 this.track_sequential_value = track_sequential_value;
         }
-        
+
         public int getId(){
                 return track_id;
         }
+        
         public void setId(int track_id){
                 this.track_id = track_id;
         }
